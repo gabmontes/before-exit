@@ -1,0 +1,28 @@
+{
+  "name": "before-exit",
+  "version": "1.0.0",
+  "description": "Easily add listeners to signals sent to the running process",
+  "keywords": [
+    "signal",
+    "sigterm",
+    "sigint",
+    "posix",
+    "exit",
+    "terminate",
+    "promise"
+  ],
+  "license": "MIT",
+  "author": "gabriel@utoctadel.com.ar",
+  "main": "index.js",
+  "repository": "gabmontes/before-exit",
+  "scripts": {
+    "test": "mocha"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
+}
